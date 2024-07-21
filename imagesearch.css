@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #333333;
+    text-align: center;
+    padding: 20px;
+}
+
+.header h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.search-bar {
+    margin: 20px auto;
+    width: 68%;
+    text-align: center;
+  background-color: #fff;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  padding-left: 20px;
+  
+}
+
+input {
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    max-width: 500px;
+    width: 100%;
+    border: none;
+    outline: none;
+    
+}
+
+#search-btn {  
+    cursor: pointer;
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(16,16,173);
+    border: rgb(16,16,173);
+    padding: 10px 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px ;
+}
+
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.download-btn{
+    height: 20px;
+    width: 20px;
+    margin-top: 6px;
+    background-color:rgb(16,16,173);
+    border-color:rgb(16,16,173);
+    background-image: url("https://img.icons8.com/?size=100&id=14100&format=png&color=000000");
+    background-size: cover;
+
+     border-radius: 20%;
+    cursor: pointer;
+    
+}
+
